@@ -1,0 +1,17 @@
+{
+	"version": "0.1.0",
+	"command": "typeup",
+	"isShellCommand": true,
+	"showOutput": "silent",
+	"tasks": [
+		{
+			"taskName": "pdf",
+			"args": [ "${fileBasename}" ]
+		},
+		{
+			"taskName": "html",
+			"isBuildCommand": true,
+			"args": [ "${fileBasename}" ]
+		}	
+	]
+}
